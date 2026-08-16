@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
-title = "Ananth's Blog"
+title = "Ananth Vyas"
 theme = 'PaperMod'
 
 [params]
@@ -9,6 +9,30 @@ theme = 'PaperMod'
   showShareButtons = false
   showPostNavLinks = true
 
-[params.homeInfoParams]
-  Title = "Hi, I'm Ananth 👋"
-  Content = "I'm a hobby woodworker and a wannabe storyteller."
+[params.profileMode]
+  enabled = true
+  title = "Ananth Vyas"
+  subtitle = "Hobby woodworker & wannabe storyteller."
+  buttons = [
+    { name = "Blog", url = "/posts/" },
+    { name = "Woodworking", url = "/woodworking/" },
+    { name = "Storytelling", url = "/stories/" }
+  ]
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "woodworking"
+  name = "Woodworking"
+  url = "/woodworking/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "stories"
+  name = "Storytelling"
+  url = "/stories/"
+  weight = 30
