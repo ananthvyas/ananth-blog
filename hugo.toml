@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ananthvyas.me/'
 locale = 'en-us'
 title = "Ananth Vyas"
 theme = 'PaperMod'
@@ -13,11 +13,6 @@ theme = 'PaperMod'
   enabled = true
   title = "Ananth Vyas"
   subtitle = "Hobby woodworker & wannabe storyteller."
-  buttons = [
-    { name = "Blog", url = "/posts/" },
-    { name = "Woodworking", url = "/woodworking/" },
-    { name = "Storytelling", url = "/stories/" }
-  ]
 
 [[menu.main]]
   identifier = "blog"
