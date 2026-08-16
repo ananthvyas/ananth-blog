@@ -1,0 +1,9 @@
+{{- if not .Params.hideFooter }}
+<footer class="footer">
+    {{- if site.Params.copyright }}
+    <span>{{ site.Params.copyright | safeHTML }}</span>
+    {{- else }}
+    <span>&copy; {{ now.Year }} <a href="{{ "" | absURL }}">{{ site.Title }}</a></span>
+    {{- end }}
+</footer>
+{{- end }}
