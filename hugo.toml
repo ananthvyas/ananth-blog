@@ -9,10 +9,9 @@ theme = 'PaperMod'
   showShareButtons = false
   showPostNavLinks = true
 
-[params.profileMode]
-  enabled = true
-  title = "Ananth Vyas"
-  subtitle = "Hobby woodworker & wannabe storyteller."
+[params.homeInfoParams]
+  Title = "Hi, I'm Ananth 👋"
+  Content = "I'm a hobby woodworker and a wannabe storyteller."
 
 [[menu.main]]
   identifier = "blog"
