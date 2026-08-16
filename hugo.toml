@@ -9,10 +9,6 @@ theme = 'PaperMod'
   showShareButtons = false
   showPostNavLinks = true
 
-[params.homeInfoParams]
-  Title = "Hi, I'm Ananth 👋"
-  Content = "I'm a hobby woodworker and a wannabe storyteller."
-
 [[menu.main]]
   identifier = "blog"
   name = "Blog"
