@@ -2,3 +2,13 @@ baseURL = 'https://example.org/'
 locale = 'en-us'
 title = "Ananth's Blog"
 theme = 'PaperMod'
+
+[params]
+  defaultTheme = 'auto'
+  showReadingTime = true
+  showShareButtons = false
+  showPostNavLinks = true
+
+[params.homeInfoParams]
+  Title = "Hi, I'm Ananth 👋"
+  Content = "I'm a hobby woodworker and a wannabe storyteller."
